@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-declare var AOS:any;
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent{
-  title = 'landing';
-  constructor(){
-    AOS.init();
+export class AppComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
   }
+
 }

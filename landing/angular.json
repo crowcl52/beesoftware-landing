@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/aos/dist/aos.css",
+              "./src/assets/lib/set1.css",
+              "./src/assets/lib/set2.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {
